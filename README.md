@@ -1,2 +1,2 @@
 # paginadecaptura
- Exemplo de uma página de captura
+ Exemplo de uma página de captura responsiva.
