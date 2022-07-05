@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #273a73;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+header {
+  background-color: #f2a922;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.title {
+  font-size: 26px;
+}
+
+section {
+  padding: 20px;
+  background-image: url(assets/conferencia.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+
+.formContainer {
+  max-width: 230px;
+  background-color: #ffffffbb;
+  padding: 20px;
+  float: right;
+  text-align: justify;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.mb {
+  margin-bottom: 5px;
+}
+
+.mb1 {
+  margin-bottom: 10px;
+}
+
+.mp {
+  margin-bottom: 20px;
+}
+
+input,
+select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+input[type='submit'] {
+  color: white;
+  background-color: black;
+  font-weight: bold;
+}
+
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+
+  background-image: url(./assets/arrow.jpg);
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 10px);
+  background-position-y: center;
+}
+
+footer {
+  background-color: #f2a922;
+  padding: 40px;
+  text-align: center;
+}
+
+.picture {
+  width: 260px;
+}
+
+.description {
+  display: inline-block;
+  text-align: justify;
+  color: white;
+  max-width: 40%;
+  margin-left: 40px;
+}
+
+.description p {
+  margin-bottom: 20px;
+}
+
+.description h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 880px) {
+  .picture {
+    display: block;
+    margin: auto;
+  }
+
+  .description h3 {
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .description {
+    max-width: 90%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .formContainer {
+    float: none;
+    margin: auto;
+  }
+}
